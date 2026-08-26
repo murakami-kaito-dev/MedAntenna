@@ -1,0 +1,37 @@
+{
+  "newsletter": {
+    "enabled": false
+  },
+  "sections": [
+    {
+      "id": "trends",
+      "label": "ニュース",
+      "type": "trends",
+      "lede": "毎朝6時に自動更新。放射線技師を目指す学生・若手技師のための医療・放射線ニュースです。"
+    },
+    {
+      "id": "glossary",
+      "label": "用語辞典",
+      "type": "glossary",
+      "lede": "ニュースに出てくる放射線・医療の用語を、技師1年目でも分かる言葉で説明します。"
+    },
+    {
+      "id": "about",
+      "label": "このサイトについて",
+      "type": "docs",
+      "lede": "MedAntenna の目的と、情報の扱いについて。",
+      "pages": [
+        {
+          "slug": "about",
+          "title": "MedAntenna とは",
+          "summary": "誰のための、どんなサイトか。"
+        },
+        {
+          "slug": "disclaimer",
+          "title": "免責事項と情報の扱い",
+          "summary": "医学的助言ではありません。必ずお読みください。"
+        }
+      ]
+    }
+  ]
+}

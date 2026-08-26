@@ -1,0 +1,13 @@
+# Cloudflare Workers の静的アセット配信から除外する内部ファイル(公開しない)。
+# ここに書いたものは pages/サイトとして配信されない。
+.git
+.gitignore
+.assetsignore
+.claude/
+.local/
+docs/
+tools/
+worker/
+functions/
+wrangler.jsonc
+CLAUDE.md

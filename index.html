@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<title>MedAntenna — 医療・放射線のいまを受信する</title>
+<meta name="description" content="放射線技師を目指す学生・若手技師のための医療・放射線ニュース。毎朝6時に自動更新。用語辞典つき。">
+<meta name="theme-color" content="#10131F">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="icon" href="icons/icon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="icons/icon-180.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Shippori+Mincho+B1:wght@600;800&family=IBM+Plex+Sans+JP:wght@400;500;700&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="header-inner">
+    <a class="brand" href="#trends" aria-label="MedAntenna ホーム">
+      <svg class="brand-mark" viewBox="0 0 24 24" aria-hidden="true">
+        <path d="M12 21V11" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/>
+        <circle cx="12" cy="9.5" r="1.7" fill="var(--signal)"/>
+        <path class="wave wave-1" d="M7.5 6.5a6.5 6.5 0 0 1 9 0" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"/>
+        <path class="wave wave-2" d="M5 4a10 10 0 0 1 14 0" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"/>
+      </svg>
+      <span class="brand-name">MedAntenna</span>
+    </a>
+    <p class="receiving" aria-hidden="true">
+      <span class="receiving-lamp"></span><span class="receiving-label">受信中</span>
+      <span class="receiving-stream" id="receiving-stream"></span>
+    </p>
+    <button class="theme-toggle" id="search-btn" aria-label="サイト内検索">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="6.5" fill="none" stroke="currentColor" stroke-width="1.7"/><path d="M15.8 15.8 20 20" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></svg>
+    </button>
+    <button class="theme-toggle" id="theme-toggle" aria-label="テーマ切り替え">
+      <svg viewBox="0 0 24 24" class="icon-sun" aria-hidden="true"><circle cx="12" cy="12" r="4.5" fill="none" stroke="currentColor" stroke-width="1.6"/><path d="M12 3v2.2M12 18.8V21M3 12h2.2M18.8 12H21M5.6 5.6l1.6 1.6M16.8 16.8l1.6 1.6M18.4 5.6l-1.6 1.6M7.2 16.8l-1.6 1.6" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg>
+      <svg viewBox="0 0 24 24" class="icon-moon" aria-hidden="true"><path d="M20 13.5A8 8 0 0 1 10.5 4 8 8 0 1 0 20 13.5Z" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/></svg>
+    </button>
+  </div>
+  <nav class="tab-bar" aria-label="カテゴリ">
+    <div class="tab-scroll" id="tab-scroll" role="tablist"></div>
+  </nav>
+</header>
+
+<main id="main" tabindex="-1">
+  <div class="content" id="content" aria-live="polite">
+    <p class="loading">受信しています…</p>
+  </div>
+</main>
+
+<footer class="site-footer">
+  <p class="footer-note">本サイトは学習目的のニュース紹介であり、医学的助言(診断・治療・検査適応の判断)ではありません。
+  詳細は<a href="#/about/disclaimer">免責事項</a>をご覧ください。</p>
+</footer>
+
+<script src="js/app.js"></script>
+
+</body>
+</html>

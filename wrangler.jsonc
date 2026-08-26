@@ -1,0 +1,11 @@
+{
+  // Cloudflare Workers の設定。統合フロー(Workers Builds)で `npx wrangler deploy` が読む。
+  // 「静的アセット + 最小の Worker(API用)」構成。ANTENNA と同方式。
+  "name": "medantenna",
+  "compatibility_date": "2026-08-24",
+  "main": "worker/index.js",
+  "assets": {
+    "directory": ".",
+    "binding": "ASSETS"
+  }
+}

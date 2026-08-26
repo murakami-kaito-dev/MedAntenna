@@ -1,0 +1,14 @@
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea/
+*.iml
+
+# secrets (このプロジェクトでは原則秘密情報を持たない)
+.env
+*.p8
+*.pem
+secrets/
+
+# local-only files
+.local/

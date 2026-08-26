@@ -1,0 +1,13 @@
+# Cloudflare Pages のレスポンスヘッダ設定。
+# 週次更新をすぐ反映させるため、頻繁に変わるファイルは毎回サーバーに更新確認させる(no-cache=保存はするが必ず再検証)。
+# CSS/JS はデフォルトのCDNキャッシュに任せる(Service Worker がネットワーク優先で取得するため実害なし)。
+/
+  Cache-Control: no-cache
+/index.html
+  Cache-Control: no-cache
+/sw.js
+  Cache-Control: no-cache
+/manifest.webmanifest
+  Cache-Control: no-cache
+/content/*
+  Cache-Control: no-cache
