@@ -1,7 +1,7 @@
 {
   "name": "MedAntenna — 医療・放射線のいまを受信する",
   "short_name": "MedAntenna",
-  "description": "放射線技師を目指す学生・若手技師のための医療・放射線ニュース。毎朝6時に自動更新。",
+  "description": "医療・放射線分野のニュースを毎朝6時にお届け。専門用語をかみ砕いた解説と用語辞典つき。",
   "lang": "ja",
   "start_url": "./",
   "scope": "./",

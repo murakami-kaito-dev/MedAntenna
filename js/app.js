@@ -506,7 +506,7 @@ async function renderSearch() {
   header(contentEl, "サイト内検索", "全ページ・全用語・全号を横断検索します。");
   const box = el("input", "search-box");
   box.type = "search";
-  box.placeholder = "検索語(例: temperature、エージェント、RAG)";
+  box.placeholder = "検索語(例: DRL、造影剤、k空間)";
   contentEl.appendChild(box);
   const hint = el("p", "loading", "索引を準備しています…");
   contentEl.appendChild(hint);
