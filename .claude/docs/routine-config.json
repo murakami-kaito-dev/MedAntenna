@@ -1,11 +1,24 @@
 {
-  "_comment": "スケジュール済みクラウドエージェント(routine)の設定の写し。登録後に実IDへ更新する。",
-  "status": "未登録(サイト安定稼働の確認後に schedule スキルで登録する)",
+  "_comment": "スケジュール済みクラウドエージェント(routine)の設定の写し。実体は claude.ai/code/routines",
+  "status": "登録済み(2026-08-27)",
   "name": "MedAntenna 毎朝のニュース配信",
   "cron_expression": "0 21 * * *",
   "cron_note": "UTC 21:00 = JST 翌朝 6:00(毎日)",
   "model": "claude-sonnet-5",
-  "allowed_tools": ["Bash", "Read", "Write", "Edit", "Glob", "Grep", "WebSearch", "WebFetch", "mcp__Gmail"],
-  "sources": ["https://github.com/murakami-kaito-dev/MedAntenna"],
-  "prompt_summary": "CLAUDE.md と .claude/docs/update-runbook.md を読み、手順0〜5(git初期化→リサーチ→号追加→validate→content先行push→Gmail通知→release-log別コミット)を実行する。比率(放射線系が半分以上)と医療ガードレールは content-guide.md が正。"
+  "allowed_tools": [
+    "Bash",
+    "Read",
+    "Write",
+    "Edit",
+    "Glob",
+    "Grep",
+    "WebSearch",
+    "WebFetch",
+    "mcp__Gmail"
+  ],
+  "sources": [
+    "https://github.com/murakami-kaito-dev/MedAntenna"
+  ],
+  "prompt_summary": "CLAUDE.md と .claude/docs/update-runbook.md を読み、手順0〜5(git初期化→リサーチ→号追加→validate→content先行push→Gmail通知→release-log別コミット)を実行する。比率(放射線系が半分以上)と医療ガードレールは content-guide.md が正。",
+  "trigger_id": "trig_01QZF5YA2eD4iwDjTTpmRk94"
 }
