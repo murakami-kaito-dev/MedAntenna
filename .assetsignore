@@ -11,3 +11,5 @@ worker/
 functions/
 wrangler.jsonc
 CLAUDE.md
+.wrangler/
+README.md
