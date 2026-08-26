@@ -1,13 +1,16 @@
 #!/usr/bin/env python3
-"""ANTENNA コンテンツ検証 — push前に必ず実行する(update-runbook.md 参照)。
-検査: JSON構文 / site.json⇔pages対応 / [[glossary:]]・[[page:]]リンク整合 / demo id実在
+"""MedAntenna コンテンツ検証 — push前に必ず実行する(update-runbook.md 参照)。
+検査: JSON構文 / site.json⇔pages対応 / [[glossary:]]・[[page:]]リンク整合 /
+      ニュースcategory enum / source https必須 / 用語category enum
 """
 import json, re, sys
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
 CONTENT = ROOT / "content"
-DEMOS = {"next-token", "attention", "training", "tokenize", "temperature", "neural-params"}
+DEMOS = set()  # MedAntenna は demo ブロックを使わない(使用はエラー)
+NEWS_CATEGORIES = {"装置・技術", "検査・臨床", "安全・被ばく管理", "研究・学会", "制度・キャリア"}
+TERM_CATEGORIES = {"物理・原理", "装置", "撮像・検査", "安全・被ばく", "臨床", "制度・資格"}
 LINK_RE = re.compile(r"\[\[(glossary|page):([a-z0-9/-]+)\|([^\]]+)\]\]")
 errors = []
 
@@ -94,6 +97,8 @@ for f in sorted((CONTENT / "pages").rglob("*.json")):
                 errors.append(f"{f.relative_to(ROOT)}: 存在しないページリンク [[page:{target}]]")
 
 for t in glossary["terms"]:
+    if t.get("category") not in TERM_CATEGORIES:
+        errors.append(f"glossary[{t.get('slug')}]: category が不正: {t.get('category')}")
     for r in t.get("related", []):
         if r not in slugs:
             errors.append(f"glossary[{t.get('slug')}]: related に存在しないslug {r}")
@@ -113,6 +118,10 @@ for i in trends["issues"]:
                 errors.append(f"trends[{i['version']}]: 記事に {key} がない: {item.get('title', '?')[:20]}")
         if "briefing" in item and not isinstance(item["briefing"], list):
             errors.append(f"trends[{i['version']}]: briefing は配列であること: {item.get('title','?')[:20]}")
+        if item.get("category") and item["category"] not in NEWS_CATEGORIES:
+            errors.append(f"trends[{i['version']}]: category が不正 '{item['category']}': {item.get('title','?')[:20]}")
+        if item.get("source") and not str(item["source"]).startswith("https://"):
+            errors.append(f"trends[{i['version']}]: source は https:// で始まる一次情報源URL: {item.get('title','?')[:20]}")
 
 if errors:
     print(f"NG: {len(errors)}件")
