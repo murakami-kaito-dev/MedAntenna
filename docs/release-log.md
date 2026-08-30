@@ -3,6 +3,24 @@
 > 配信(号の発行・シェル変更のデプロイ)を記録する。書式は release-log スキルに従う。
 > ※ このファイルは意図的に `.claude/` の外に置く(無人実行の承認プロンプト事故対策)。
 
+## 2026-08-30 — WebFetch遮断の根本原因を特定・解決(無人WebFetch復活)
+
+- **根本原因**: claude.ai/code のクラウド環境「Default」(全ルーチン共用)の**ネットワークアクセスが
+  「Trusted」(限定ドメインのみ許可)になっていた**こと。github/npm/pypi等のみ通り、
+  医療サイト等への WebFetch/curl は egress gateway が CONNECT 403(EGRESS_BLOCKED)で遮断していた。
+  8/29までは通っていたため、8/30頃にこの設定の適用/既定が変わったとみられる。
+- **解決**: 開発者が claude.ai/code のルーチン設定内「クラウド環境を更新」ダイアログで
+  ネットワークアクセスを **Trusted → Full に変更**(2026-08-30 14時台)。直後の検証で
+  auntminnie.com / mhlw.go.jp への WebFetch が**人間の承認なしで成功**することを確認。
+  8/29までの無人WebFetch運用が復活した。
+- **効かなかったもの(記録)**: claude.ai「設定→機能(コード実行)」のドメイン許可リスト変更/
+  RemoteTrigger API 経由の各種設定(egress_allowlist・permission_mode 等)/リポジトリの
+  `.claude/settings.json`(sandbox.network.allowedDomains・skipWebFetchPreflight)。
+  実効性があるのは**環境ダイアログの「ネットワークアクセス」のみ**。
+- 検証用に一時追加した `.claude/settings.json` は効果なしと判明したため削除(コミット 808879b)。
+- 朝に入れた WebSearch フォールバック(ランブック§1)は**保険としてそのまま維持**する。
+- 同環境を使う ANTENNA・サブスク価格チェックの各ルーチンも本修正の恩恵を受ける。
+
 ## v2026.08.30 — 第4号（手動配信・WebFetch全遮断への恒久対策）
 
 - 2026-08-30: 本日分をClaudeが**手動配信**(push済み=自動デプロイ、コミット 33da2dc)。記事5本
