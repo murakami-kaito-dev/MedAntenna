@@ -2,5 +2,10 @@
   "permissions": {
     "allow": ["WebFetch", "WebSearch"]
   },
+  "sandbox": {
+    "network": {
+      "allowedDomains": ["*"]
+    }
+  },
   "skipWebFetchPreflight": true
 }
