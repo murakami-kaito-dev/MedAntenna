@@ -1,6 +1,24 @@
 {
-  "updated": "2026-09-09",
+  "updated": "2026-09-10",
   "terms": [
+    {
+      "slug": "czt",
+      "term": "CZT検出器",
+      "reading": "しーぜっとてぃーけんしゅつき",
+      "category": "装置",
+      "definition": "カドミウム・ジンク・テルル(CdZnTe)という半導体材料を使った放射線検出器です。ガンマ線を直接電気信号に変換できるため、従来のシンチレータ+光電子増倍管方式に比べて感度やエネルギー分解能に優れます。近年のSPECT装置で採用が進んでいます。",
+      "context": "SPECT/CT装置の新製品ニュースや核医学領域の技術動向の記事でよく登場します。",
+      "related": ["spect", "radiopharmaceutical"]
+    },
+    {
+      "slug": "theranostics",
+      "term": "セラノスティクス",
+      "reading": "せらのすてぃくす",
+      "category": "臨床",
+      "definition": "診断(diagnostics)と治療(therapeutics)を組み合わせた概念です。同じ、または対になる分子を標的にした放射性医薬品を使い、まず画像診断で病変を確認し、同様の薬剤で治療も行う手法を指します。核医学領域で急速に広がっています。",
+      "context": "PET/SPECTを使った核医学治療(RPT)のニュースで頻出する用語です。",
+      "related": ["radiopharmaceutical", "spect", "pet"]
+    },
     {
       "slug": "c-arm",
       "term": "Cアーム",

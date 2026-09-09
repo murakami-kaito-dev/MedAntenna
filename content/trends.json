@@ -1,6 +1,54 @@
 {
-  "updated": "2026-09-09",
+  "updated": "2026-09-10",
   "issues": [
+    {
+      "version": "v2026.09.10",
+      "date": "2026年9月10日",
+      "headline": "GEヘルスケアがCZT検出器搭載の次世代SPECT/CT「StarGuide GX」を米FDAに申請、インドで初の直立位陽子線治療装置導入へ、米FNIHが放射性医薬品治療の線量測定標準化プロジェクトを開始――装置・研究の動向3本。",
+      "items": [
+        {
+          "title": "GEヘルスケア、CZT検出器搭載のSPECT/CT「StarGuide GX」を米FDAに申請",
+          "category": "装置・技術",
+          "source": "https://www.auntminnie.com/clinical-news/molecular-imaging/news/15834267/ge-healthcare-gehc-submits-starguide-gx-digital-spectct-for-fda-clearance",
+          "lead": "GEヘルスケアは、両面[[glossary:czt|CZT検出器]]を搭載した次世代デジタルSPECT/CT「StarGuide GX」について、米FDAへ510(k)申請を行ったと発表した。欧州では既にCEマークを取得している。",
+          "body": "従来型に比べ感度を2倍に高めつつ撮像時間の短縮を図ったほか、検出器の交換を3秒以内で行える設計とした。画像再構成にはNvidia RTXを用い、アクチニウム225や鉛212といったアルファ線(α線)を放出する核種を含む幅広いエネルギー範囲の撮像に対応する。",
+          "briefing": [
+            "両面CZT検出器で感度を従来型の2倍に",
+            "検出器交換は3秒以内、画像再構成にNvidia RTXを採用",
+            "アクチニウム225・鉛212などアルファ線放出核種の撮像にも対応",
+            "欧州はCEマーク取得済み。米国はFDA申請段階で未承認"
+          ],
+          "explanation": "[[glossary:theranostics|セラノスティクス]](診断と治療を組み合わせる手法)の広がりに伴い、SPECT/CTには治療計画・線量評価・治療効果モニタリングまでを担う役割が求められている。CZT検出器の高感度化は、核医学領域で働く技師の検査時間短縮や、より精密な線量評価の実務に直結する技術動向として知っておきたい。米国は申請段階であり、国内導入時期は未定。"
+        },
+        {
+          "title": "印フォーティス社、インド初の直立位陽子線治療装置を導入へ",
+          "category": "装置・技術",
+          "source": "https://www.auntminnie.com/clinical-news/radiation-oncology-therapy/news/15834302/fortis-to-install-first-upright-proton-therapy-system-in-india",
+          "lead": "インドの医療グループFortis Healthcareは、同国で初めてとなる「直立位(アップライト)」の陽子線治療システムを、グルガオンのFortis Memorial Research Instituteに導入すると発表した。",
+          "body": "導入するのは、Mevion社の小型陽子線加速器とLeo Cancer Care社の患者直立位置決め装置「Marie」を組み合わせた「Mevion S250-FIT」。位置決め用のCT撮像機能も一体化しており、治療計画にはRaySearch社の「RayStation」を用いる。導入は規制当局の承認と施設整備の完了が前提で、稼働開始時期は未定。",
+          "briefing": [
+            "従来の仰臥位(寝た姿勢)ではなく座位・立位で照射する陽子線治療装置",
+            "小型加速器と一体型CTで従来より省スペース化",
+            "インドでは初導入。規制承認・施設整備待ちで稼働時期は未定"
+          ],
+          "explanation": "陽子線治療は装置が大型・高額になりやすく、直立位方式は設置面積の縮小と位置決め時間の短縮を狙う新しい方式。放射線治療に関わる技師にとっては、従来の仰臥位固定とは異なる位置決め・再現性確保のノウハウが今後必要になる可能性がある技術動向として注目される。国内での稼働実績はまだない。"
+        },
+        {
+          "title": "米FNIH、放射性医薬品治療の線量測定を標準化するプロジェクトを開始",
+          "category": "研究・学会",
+          "source": "https://www.auntminnie.com/clinical-news/radiation-oncology-therapy/news/15834295/dosisoft-theranostics-joins-fnih-precision-dosimetry-research-project",
+          "lead": "米国立衛生研究所財団(FNIH)が、[[glossary:radiopharmaceutical|放射性医薬品]]を使った治療(RPT)の吸収線量測定を標準化する3年間・710万ドル規模の研究プロジェクト「Precision Dosimetry Imaging Biomarker(PDIB)」を始動した。線量計算ソフトを手がけるDOSIsoft Theranostics社も参画する。",
+          "body": "RPTは核種や施設によって線量計算の手法が異なり、治療効果の比較や個別最適化が難しいという課題がある。本プロジェクトは撮像プロトコルと吸収線量の測定手法を標準化し、より一貫性のある個別化治療につなげることを目指す。アイオワ大学のJohn Sunderland博士とStephen Graves博士が主任研究者を務める。",
+          "briefing": [
+            "米FNIHが主導、3年間・710万ドル規模の研究プロジェクト",
+            "RPT(放射性医薬品治療)の吸収線量測定・撮像プロトコルの標準化が目的",
+            "DOSIsoft Theranostics社など複数の企業・団体が参画",
+            "主任研究者はアイオワ大学のSunderland博士・Graves博士"
+          ],
+          "explanation": "RPTはアクチニウム225などアルファ線放出核種を含め治療選択肢が急速に拡大している分野で、線量測定の標準化は核医学領域で働く技師の今後の実務・教育に影響しうる動向。研究プロジェクトの立ち上げ段階であり、国内の指針や診療報酬への反映はまだない。"
+        }
+      ]
+    },
     {
       "version": "v2026.09.09",
       "date": "2026年9月9日",
