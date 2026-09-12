@@ -8,7 +8,10 @@
       "category": "装置",
       "definition": "カドミウム・ジンク・テルル(CdZnTe)という半導体材料を使った放射線検出器です。ガンマ線を直接電気信号に変換できるため、従来のシンチレータ+光電子増倍管方式に比べて感度やエネルギー分解能に優れます。近年のSPECT装置で採用が進んでいます。",
       "context": "SPECT/CT装置の新製品ニュースや核医学領域の技術動向の記事でよく登場します。",
-      "related": ["spect", "radiopharmaceutical"]
+      "related": [
+        "spect",
+        "radiopharmaceutical"
+      ]
     },
     {
       "slug": "theranostics",
@@ -17,7 +20,11 @@
       "category": "臨床",
       "definition": "診断(diagnostics)と治療(therapeutics)を組み合わせた概念です。同じ、または対になる分子を標的にした放射性医薬品を使い、まず画像診断で病変を確認し、同様の薬剤で治療も行う手法を指します。核医学領域で急速に広がっています。",
       "context": "PET/SPECTを使った核医学治療(RPT)のニュースで頻出する用語です。",
-      "related": ["radiopharmaceutical", "spect", "pet"]
+      "related": [
+        "radiopharmaceutical",
+        "spect",
+        "pet"
+      ]
     },
     {
       "slug": "c-arm",
@@ -26,7 +33,10 @@
       "category": "装置",
       "definition": "X線管と検出器をC字型のアームの両端に取り付け、患者の周りを自在に動かしながらX線透視・撮影ができる装置です。手術室や血管造影室で、IVRや整形外科手術など画像を見ながら行う処置に使われます。床や天井に固定するタイプのほか、移動型(可搬型)もあります。",
       "context": "血管造影室や手術室でのIVR・整形外科手術に関する記事で登場します。",
-      "related": ["ivr", "fpd"]
+      "related": [
+        "ivr",
+        "fpd"
+      ]
     },
     {
       "slug": "cbct",
@@ -35,7 +45,10 @@
       "category": "撮像・検査",
       "definition": "円錐状(コーンビーム)に広げたX線を使い、Cアームなどを一回転させて撮影することで、その場でCTのような立体画像を得る撮影方法です。手術室や血管造影室に据え付けられたCアームでも撮影でき、専用のCT装置に患者を移動させずに術中の位置確認ができます。歯科用CTでも同じ方式が使われています。",
       "context": "IVRや脊椎手術など、術中に立体画像で位置を確認する場面の記事で登場します。",
-      "related": ["c-arm", "ivr"]
+      "related": [
+        "c-arm",
+        "ivr"
+      ]
     },
     {
       "slug": "ceus",
@@ -1240,6 +1253,18 @@
       "related": [
         "linac",
         "particle-therapy"
+      ]
+    },
+    {
+      "slug": "llm",
+      "term": "LLM(大規模言語モデル)",
+      "reading": "えるえるえむ",
+      "category": "臨床",
+      "definition": "大量の文章データを学習し、人間のような自然な文章を生成できるAIの一種です。対話型AIサービスの中核技術で、近年は放射線科レポートの要約や、患者向けにやさしく言い換えた文章の作成といった用途でも研究が進んでいます。",
+      "context": "AI生成レポートの品質評価など、画像診断領域でのAI活用に関するニュースで登場する用語です。",
+      "related": [
+        "cad",
+        "samd"
       ]
     }
   ]
