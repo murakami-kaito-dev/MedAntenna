@@ -1,6 +1,19 @@
 {
-  "updated": "2026-09-14",
+  "updated": "2026-09-16",
   "terms": [
+    {
+      "slug": "somatostatin-receptor",
+      "term": "ソマトスタチン受容体",
+      "reading": "そまとすたちんじゅようたい",
+      "category": "臨床",
+      "definition": "神経内分泌腫瘍の細胞表面に多く現れる受容体です。ホルモンの一種であるソマトスタチンやその類似物質が結合します。この受容体をねらって放射性医薬品を結合させることで、腫瘍を画像化したり(診断)、放射線を病巣に届けて治療したり([[glossary:theranostics|セラノスティクス]])できます。",
+      "context": "神経内分泌腫瘍のPET検査や、核医学治療薬の適応判定に関する記事で登場します。",
+      "related": [
+        "theranostics",
+        "radiopharmaceutical",
+        "pet"
+      ]
+    },
     {
       "slug": "czt",
       "term": "CZT検出器",
