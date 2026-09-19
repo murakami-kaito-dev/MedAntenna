@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-19",
+  "updated": "2026-09-20",
   "terms": [
     {
       "slug": "cdte-detector",
@@ -1337,6 +1337,19 @@
       "related": [
         "linac",
         "dose-distribution"
+      ]
+    },
+    {
+      "slug": "fet-pet",
+      "term": "FET-PET",
+      "reading": "えふいーてぃーぺっと",
+      "category": "撮像・検査",
+      "definition": "フルオロエチルチロシン(FET)という放射性医薬品を使うアミノ酸PET検査です。腫瘍細胞のアミノ酸トランスポーターへの取り込みを画像化するため、ブドウ糖の代謝を見るFDG-PETとは異なる情報が得られます。脳腫瘍の治療後にみられる画像上の変化と、腫瘍の再発・病勢進行との鑑別に使われます。",
+      "context": "脳腫瘍(グリオーマ)の経過観察で、MRIだけでは治療後の変化と再発の区別が難しい場合に、FET-PETなどのアミノ酸PETが補助的に使われる場面で登場します。",
+      "related": [
+        "pet",
+        "fes-pet",
+        "radiopharmaceutical"
       ]
     }
   ]
