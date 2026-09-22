@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-22",
+  "updated": "2026-09-23",
   "terms": [
     {
       "slug": "cdte-detector",
@@ -1374,6 +1374,17 @@
       "related": [
         "cad",
         "deep-learning-reconstruction"
+      ]
+    },
+    {
+      "slug": "mri-safety-personnel",
+      "term": "MRI安全担当者(Level 1/Level 2)",
+      "reading": "えむあーるあいあんぜんたんとうしゃ",
+      "category": "安全・被ばく",
+      "definition": "米国放射線専門医会(ACR)のMRI安全基準が定める、MRI検査室に立ち入る資格の区分です。Level 1はMRI環境の基礎的な危険性を理解した者、Level 2はより高度な安全知識を持ち検査室の運用管理に関わる者を指します。日本の資格制度に直接対応する区分はありませんが、磁性体スクリーニングや入退室管理の考え方を理解する参考になります。",
+      "context": "MRI事故の分析記事などで「Level 2 MRI安全担当者」のように登場します。",
+      "related": [
+        "static-magnetic-field"
       ]
     }
   ]
