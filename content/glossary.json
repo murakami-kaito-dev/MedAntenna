@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-28",
+  "updated": "2026-09-29",
   "terms": [
     {
       "slug": "cdte-detector",
@@ -1398,6 +1398,18 @@
         "linac",
         "dose-distribution",
         "imrt"
+      ]
+    },
+    {
+      "slug": "hypofractionated-radiotherapy",
+      "term": "寡分割放射線治療（低分割放射線治療）",
+      "reading": "かぶんかつほうしゃせんちりょう",
+      "category": "臨床",
+      "definition": "1回あたりの放射線量を通常より多くし、その分総照射回数を減らす治療法です。通院回数や治療期間を短縮できますが、1回あたりの線量が高くなる分、正常組織への影響を慎重に管理する必要があります。乳がんや前立腺がんの放射線治療で広く採用が進んでいます。",
+      "context": "論文や学会発表では英語の「hypofractionation」に対応する語として、通常分割(conventional fractionation)との比較試験で頻出します。",
+      "related": [
+        "sbrt",
+        "dose-distribution"
       ]
     }
   ]
