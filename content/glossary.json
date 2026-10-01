@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-01",
+  "updated": "2026-10-02",
   "terms": [
     {
       "slug": "cdte-detector",
@@ -1440,6 +1440,19 @@
       "definition": "災害や事故が起きたときにも重要な業務を継続、あるいは早期に復旧させるためにあらかじめ定めておく計画です。医療機関では、原発事故のように平時と異なる特別な対応が必要な事態でも、優先すべき診療を続けられるように策定します。",
       "context": "原子力災害拠点病院など、災害時に医療の拠点となる施設の備えを示す指標として使われます。",
       "related": []
+    },
+    {
+      "slug": "psma",
+      "term": "PSMA(前立腺特異的膜抗原)",
+      "reading": "ぴーえすえむえー",
+      "category": "臨床",
+      "definition": "前立腺がんの細胞表面に多く現れるタンパク質です。この分子を標的にした薬剤を使うことで、前立腺がんを画像化したり(PET検査)、放射線を病巣に届けて治療したり([[glossary:theranostics|セラノスティクス]])できます。代表的な治療薬に177Lu-PSMA-617があります。",
+      "context": "進行前立腺がんに対する核医学治療(RPT)の記事で、[[glossary:somatostatin-receptor|ソマトスタチン受容体]]を標的にした神経内分泌腫瘍の治療薬とならび登場します。",
+      "related": [
+        "theranostics",
+        "radiopharmaceutical",
+        "somatostatin-receptor"
+      ]
     }
   ]
 }
