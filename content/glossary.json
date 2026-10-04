@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-04",
+  "updated": "2026-10-05",
   "terms": [
     {
       "slug": "cdte-detector",
@@ -1477,6 +1477,19 @@
         "theranostics",
         "radiopharmaceutical",
         "somatostatin-receptor"
+      ]
+    },
+    {
+      "slug": "mr-conditional",
+      "term": "MR条件付き（MRコンディショナル）",
+      "reading": "えむあーるじょうけんづき",
+      "category": "安全・被ばく",
+      "definition": "植込み型医療機器などが、添付文書に記載された特定の条件(静磁場強度や撮像シーケンスの種類、体内での機器の状態など)を満たす場合に限り、MRI検査を安全に受けられると認められている状態です。条件から外れる使い方をすると、[[glossary:rf-pulse|RFパルス]]による発熱や機器の誤作動などのリスクが生じる可能性があります。",
+      "context": "ペースメーカーや人工関節など、植込み型機器を持つ患者のMRI検査前の問診・安全確認で必ず確認する用語です。添付文書や機器のIDカードに記載された条件と、実際の検査条件が一致しているかを技師が確認します。",
+      "related": [
+        "mri-safety-personnel",
+        "static-magnetic-field",
+        "rf-pulse"
       ]
     }
   ]
