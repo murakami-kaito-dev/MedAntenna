@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-09",
+  "updated": "2026-10-10",
   "terms": [
     {
       "slug": "cdte-detector",
@@ -1548,6 +1548,37 @@
       "related": [
         "digital-breast-tomosynthesis"
       ]
+    },
+    {
+      "slug": "mri-zoning",
+      "term": "MRIの安全ゾーニング(ゾーンI〜IV)",
+      "reading": "えむあーるあいのあんぜんぞーにんぐ",
+      "category": "安全・被ばく",
+      "definition": "MRI検査室とその周辺を、磁場の影響や立入り制限の観点から4段階に区分する考え方です。ゾーンIは誰でも入れる区域、ゾーンIVは実際に強い[[glossary:static-magnetic-field|静磁場]]が発生している検査室内を指します。米国放射線専門医会(ACR)のMR安全マニュアルなどで示されている区分です。",
+      "context": "ゾーンが上がるほど立入りや持込み物品の管理が厳しくなり、ゾーンIVには強磁性体の器具を原則持ち込めません。",
+      "related": [
+        "static-magnetic-field",
+        "mr-conditional",
+        "mri-safety-personnel"
+      ]
+    },
+    {
+      "slug": "pack-year",
+      "term": "パックイヤー",
+      "reading": "ぱっくいやー",
+      "category": "臨床",
+      "definition": "喫煙量を表す指標で、1日に吸うたばこの箱数(1箱20本換算)に喫煙年数を掛けて算出します。例えば1日1箱を20年吸えば20パックイヤーです。肺がん検診などの対象基準に使われます。",
+      "context": "低線量CTによる肺がん検診では「20パックイヤー以上」などの基準が対象条件に含まれることがあります。",
+      "related": []
+    },
+    {
+      "slug": "point-of-care-ultrasound",
+      "term": "ポイントオブケア超音波(POCUS)",
+      "reading": "ぽいんとおぶけあちょうおんぱ",
+      "category": "装置",
+      "definition": "診察や処置を行うその場(ベッドサイドや救急現場など)で使う、小型・携行型の超音波診断装置のことです。スマートフォンやタブレットに専用プローブをつないで使うタイプもあります。",
+      "context": "救急外来やICU、災害現場などでの迅速な画像評価に使われており、近年利用が広がっています。",
+      "related": []
     }
   ]
 }
