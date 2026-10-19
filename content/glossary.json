@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-19",
+  "updated": "2026-10-20",
   "terms": [
     {
       "slug": "cdte-detector",
@@ -1754,6 +1754,33 @@
         "pet",
         "cyclotron",
         "radioisotope"
+      ]
+    },
+    {
+      "slug": "cu-67",
+      "term": "銅67(Cu-67)",
+      "reading": "どうろくじゅうなな",
+      "category": "物理・原理",
+      "definition": "ベータ線を放出する銅の放射性同位元素で、がん細胞を狙い撃ちする核医学治療(RPT)の治療用核種として使われます。診断用の銅61(Cu-61)と組み合わせ、同じ標的分子で画像診断と治療を行うセラノスティクスの治療側を担います。",
+      "context": "前立腺がん・乳がんなど固形がんを対象にした治療用放射性医薬品の開発でしばしば登場する核種です。",
+      "related": [
+        "radiopharmaceutical",
+        "theranostics",
+        "half-life",
+        "radioisotope"
+      ]
+    },
+    {
+      "slug": "lge",
+      "term": "LGE(遅延造影)",
+      "reading": "えるじーいー",
+      "category": "撮像・検査",
+      "definition": "ガドリニウム造影剤を投与してから数分〜十数分後にT1強調画像を撮影し、造影剤が異常に長くとどまっている部分を高信号として描き出す手法です。心筋では、線維化・瘢痕・炎症などで細胞外腔が広がった部分ほど造影剤が洗い出されにくくなるため、こうした病変の検出に使われます。",
+      "context": "心臓MRIで心筋梗塞の範囲や心筋炎・心筋症の評価に使われる代表的な撮像法です。",
+      "related": [
+        "gadolinium-contrast",
+        "ecv",
+        "t1-relaxation"
       ]
     }
   ]
