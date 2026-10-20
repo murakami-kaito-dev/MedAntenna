@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-20",
+  "updated": "2026-10-21",
   "terms": [
     {
       "slug": "cdte-detector",
@@ -1781,6 +1781,33 @@
         "gadolinium-contrast",
         "ecv",
         "t1-relaxation"
+      ]
+    },
+    {
+      "slug": "actinium-225",
+      "term": "アクチニウム225(Ac-225)",
+      "reading": "あくちにうむにひゃくにじゅうご",
+      "category": "物理・原理",
+      "definition": "アルファ線を放出する放射性同位元素で、がん細胞を狙い撃ちする標的アルファ線治療(TAT)の治療用核種として研究が進んでいます。アルファ線は到達距離が数十マイクロメートルと短く周囲の正常組織への影響が小さい一方、エネルギーが高く狙った細胞への殺傷力が強いため、次世代のセラノスティクス治療薬として注目されています。",
+      "context": "核医学治療(セラノスティクス)の研究開発ニュースで、ベータ線を放出する核種に続く次世代の治療用核種として登場します。",
+      "related": [
+        "radiopharmaceutical",
+        "theranostics",
+        "half-life",
+        "radioisotope",
+        "cu-67"
+      ]
+    },
+    {
+      "slug": "kaiser-score",
+      "term": "Kaiserスコア",
+      "reading": "かいざーすこあ",
+      "category": "撮像・検査",
+      "definition": "乳房MRIの画像所見から悪性の可能性を1〜11点で評価するスコアリングシステムです。病変の形(スピキュラの有無)・造影のパターン・辺縁・内部の造影の様子・周囲のむくみ(浮腫)といった複数の所見を段階的に組み合わせて判定します。欧州で考案され、BI-RADSと並ぶ乳房MRIの評価手法として研究が進んでいます。",
+      "context": "乳房MRIの診断精度を調べる研究記事で、MRI BI-RADSとの比較対象として登場します。",
+      "related": [
+        "bi-rads",
+        "multiparametric-mri"
       ]
     }
   ]
