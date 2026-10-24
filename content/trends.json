@@ -1,6 +1,80 @@
 {
-  "updated": "2026-10-24",
+  "updated": "2026-10-25",
   "issues": [
+    {
+      "version": "v2026.10.25",
+      "date": "2026年10月25日",
+      "headline": "米Elucid社が冠動脈CTからFFRを推定するAIソフト「FFR-IQ」で米FDAの510(k)認可を取得、米Koning Health社の乳房専用CT「Vera Breast CT」がカナダ保健省の医療機器ライセンスを取得、トルコの研究チームが乳房MRIの悪性鑑別でKaiserスコアがBI-RADS判定より精度が高いと報告、米シンシナティ小児病院のチームがラジオミクスの特徴量は手動と深層学習セグメンテーションで一致しないと報告、肺結節AI「Virtual Nodule Clinic」が画像診断プラットフォーム「RapidAI」に統合——心臓CT・乳房画像・AI解析・肺がん検診の動向5本。",
+      "items": [
+        {
+          "title": "冠動脈CTから血流予備量比を推定するAIソフト「FFR-IQ」、米FDAが510(k)認可——プラーク情報と統合",
+          "category": "装置・技術",
+          "source": "https://www.auntminnie.com/clinical-news/ct/news/15838110/elucid-gets-fda-clearance-for-plaqueinformed-ffrct-software",
+          "lead": "米Elucid社が開発した[[glossary:ccta|CCTA]](冠動脈CT血管造影)から[[glossary:fractional-flow-reserve|血流予備量比(FFR)]]を推定するソフトウェア「FFR-IQ」が、米FDAの[[glossary:fda-510k|510(k)]]認可を取得したと2026年10月21日に発表されました。プラークの性質を示す情報と組み合わせて機能的な評価を行う点が特徴です。",
+          "body": "FFR-IQは、同社が既にFDA認可を得ているプラーク解析ソフト「Plaque-IQ」が算出するプラークの性質(脂質の多さなど)の情報を使い、血管の狭窄の形だけでなく機能的な指標も1回のCCTAから推定します。同社が公表したELUCIDATE FFR-CT試験では、カテーテルを使った侵襲的なFFR測定を基準として感度92.2%・特異度93.1%だったとされていますが、対象症例数や統計的な詳細、第三者による検証結果は記事では示されていません。",
+          "briefing": [
+            "米Elucid社の「FFR-IQ」がFDAの[[glossary:fda-510k|510(k)]]認可を取得(2026年10月21日発表)",
+            "[[glossary:ccta|CCTA]]とプラーク解析結果を組み合わせ、[[glossary:fractional-flow-reserve|血流予備量比(FFR)]]を推定",
+            "同社発表のELUCIDATE FFR-CT試験では感度92.2%・特異度93.1%(第三者による検証データは示されていない)"
+          ],
+          "explanation": "侵襲的なカテーテル検査を増やさずに、1回のCCTAで解剖学的評価・機能評価・プラーク評価をまとめて行えるのは、心臓CTを担当する技師にとって検査の位置づけが変わりうる動きです。性能値は企業発表に基づくため、国内導入の判断にはなお査読を経た独立の検証データの確認が必要です。"
+        },
+        {
+          "title": "乳房専用CT「Vera Breast CT」、カナダ保健省から医療機器ライセンス取得——圧迫なしで3D撮影",
+          "category": "装置・技術",
+          "source": "https://www.auntminnie.com/clinical-news/womens-imaging/news/15838036/koning-gets-health-canada-license-for-vera-breast-ct-system",
+          "lead": "米Koning Health社の乳房専用CT装置「Vera Breast CT」が、カナダ保健省(Health Canada)から医療機器ライセンスを取得し、カナダでの商業導入が可能になったと2026年10月20日に発表されました。乳房を圧迫せずに[[glossary:cbct|コーンビームCT]]で3次元画像を撮影する装置です。",
+          "body": "Vera Breast CTは、コーンビームCTの技術を使い、乳房を圧迫せずに複数の角度から立体的な画像を得られる乳房専用の画像診断装置です。今回のカナダでの承認は、オーストラリアでの登録に続くもので、記事では対象患者層や各施設への導入予定は明らかにされていません。国内では未承認の装置です。",
+          "briefing": [
+            "米Koning Health社の乳房専用CT「Vera Breast CT」がカナダ保健省の医療機器ライセンスを取得(2026年10月20日発表)",
+            "[[glossary:cbct|コーンビームCT]]技術を使い、圧迫なしで乳房の3次元画像を撮影",
+            "対象患者層や各施設での導入時期は記事では明らかにされていない。国内未承認"
+          ],
+          "explanation": "マンモグラフィの圧迫による痛みは検診の受診率を下げる一因とされ、圧迫なしで撮影できる乳房専用CTは検診技術の選択肢として海外で注目されています。国内未承認の装置であり、現時点では海外動向としてとらえる段階です。"
+        },
+        {
+          "title": "乳房MRIの悪性鑑別、Kaiserスコアが従来のBI-RADS判定より精度高く——トルコの99例後ろ向き研究",
+          "category": "検査・臨床",
+          "source": "https://www.auntminnie.com/clinical-news/womens-imaging/article/15838022/kaiser-score-outperforms-mri-birads-for-inconclusive-breast-findings",
+          "lead": "マンモグラフィや超音波の所見が不明瞭だった乳房病変について、乳房MRIの評価指標「[[glossary:kaiser-score|Kaiserスコア]]」が従来の[[glossary:bi-rads|MRI BI-RADS]]判定よりも悪性の鑑別精度が高かったとする研究が、2026年10月18日付のEuropean Journal of Radiologyに掲載されました。",
+          "body": "トルコのTokat Gaziosmanpaşa大学の研究チームが、所見が不明瞭で乳房MRIを受けた女性99人(良性66人・悪性33人)を対象に後ろ向きに解析しました。受信者動作特性曲線下面積(AUC)はKaiserスコアが0.98、MRI BI-RADSが0.88で、差は統計的に有意でした(p<0.001)。感度はKaiserスコア97.0%・BI-RADS 60.6%、特異度はBI-RADSが100%・Kaiserスコアが87.9%でした。単一施設・99例の後ろ向き研究であり、著者らも生検の判断は画像所見単独でなく臨床所見と統合して行うべきだと注意を促しています。",
+          "briefing": [
+            "単一施設・女性99例(良性66例・悪性33例)の後ろ向き研究(2026年10月18日付European Journal of Radiology掲載)",
+            "悪性鑑別の精度(AUC)はKaiserスコア0.98・MRI BI-RADS 0.88で有意差(p<0.001)",
+            "感度はKaiserスコアが上回り(97.0% vs 60.6%)、特異度はBI-RADSが上回る(100% vs 87.9%)トレードオフ",
+            "著者らは生検判断を画像所見単独で決めるべきではないと注意"
+          ],
+          "explanation": "Kaiserスコアは国試の範囲外ですが、海外では乳房MRI判定の選択肢として研究が進んでいます。今回は小規模な単一施設研究のため、臨床導入の判断にはさらなる多施設での検証が必要です。"
+        },
+        {
+          "title": "ラジオミクスの特徴量、手動と深層学習セグメンテーションで一致せず——AJR掲載の小児データ解析",
+          "category": "研究・学会",
+          "source": "https://www.auntminnie.com/clinical-news/mri/article/15837496/manual-dlgenerated-segmentations-differ-in-radiomic-features",
+          "lead": "CT・MRI画像から多数の特徴量を抽出する[[glossary:radiomics|ラジオミクス]]解析について、深層学習(AIの学習手法の一つ)による自動セグメンテーション(画像上で臓器や病変の範囲を切り出す作業)と、人の手による手動セグメンテーションでは、抽出される特徴量の値が一致しない場合が多いとする研究が、2026年10月14日付のAmerican Journal of Roentgenology(AJR)に掲載されました。",
+          "body": "米Cincinnati Children's Hospital Medical Centerのチームが、膵臓が正常な小児139例の腹部造影CTと、自己免疫性肝疾患のある小児・若年成人64例の腹部MRIを対象に、複数の深層学習セグメンテーションモデルと手動セグメンテーションを比較しました。一致度が不良〜可にとどまった特徴量は20〜86個、系統的な偏りがあった特徴量は36〜92個に上り、MRIデータセットで最も成績が悪かったとされています。深層学習由来の特徴量を使ったモデルは、手動由来のモデルに比べ精度・汎化性能がいずれも低い傾向でした。",
+          "briefing": [
+            "小児・若年成人の腹部CT(139例)・MRI(64例)を対象に、深層学習セグメンテーションと手動セグメンテーションの特徴量を比較(2026年10月14日付AJR掲載)",
+            "一致度が不良〜可の特徴量が20〜86個、系統的な偏りのある特徴量が36〜92個",
+            "深層学習由来の特徴量を使ったモデルは精度・汎化性能が手動由来より低い傾向、MRIで特に差が大きい",
+            "研究チームはセグメンテーション手法を論文に明記するよう提言"
+          ],
+          "explanation": "AIによる自動セグメンテーションは作業時間を大幅に減らせますが、今回の結果は手法の違いがラジオミクス研究の結論を左右しかねないことを示しています。読影補助AIの検証データを読む際は、どの手法で領域を切り出したかにも注意が必要です。"
+        },
+        {
+          "title": "肺結節AI「Virtual Nodule Clinic」、画像診断プラットフォーム「RapidAI」に統合——悪性リスク評価まで一括管理",
+          "category": "装置・技術",
+          "source": "https://www.auntminnie.com/imaging-informatics/artificial-intelligence/article/15837958/rapidai-optellum-integrates-lung-nodule-ai-with-rapidai-platform",
+          "lead": "肺結節の管理を支援するAI「Virtual Nodule Clinic」(米FDA認可済み)と、悪性リスクを評価するAI「Lung Cancer Prediction AI」が、画像診断プラットフォーム「RapidAI」の「Rapid Enterprise Platform」に統合されたと発表されました。",
+          "body": "統合されたソフトウェアは、放射線科の読影レポートを検索して肺結節の記載がある患者を抽出する「Patient Discovery AI」、患者の追跡・フォローアップを管理するワークフロー支援機能、CT画像から結節の悪性リスクを評価する「Lung Cancer Prediction AI」の3つの機能を持ちます。既にRapidAIを導入済みの医療機関であれば単一のIT導入作業で利用を開始できるとされていますが、この点はOptellum社の発表に基づくもので、記事では第三者による検証は示されていません。Lung Cancer Prediction AI単体の承認状況についても記事では言及されていません。",
+          "briefing": [
+            "肺結節AI「Virtual Nodule Clinic」(米FDA認可済み)と「Lung Cancer Prediction AI」がRapidAIの「Rapid Enterprise Platform」に統合",
+            "読影レポートから肺結節の記載がある患者を自動抽出する「Patient Discovery AI」を搭載",
+            "既存のRapidAI導入先では単一のIT導入作業で利用可能とされる(企業発表に基づく)"
+          ],
+          "explanation": "肺結節は経過観察の指示が埋もれて見落とされやすいことが課題とされてきました。読影レポートからの自動抽出とAIによるリスク評価を一体化する動きは、低線量CT肺がん検診が広がる中でフォローアップ体制の効率化につながる可能性があります。"
+        }
+      ]
+    },
     {
       "version": "v2026.10.24",
       "date": "2026年10月24日",
