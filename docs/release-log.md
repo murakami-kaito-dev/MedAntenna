@@ -3,6 +3,38 @@
 > 配信(号の発行・シェル変更のデプロイ)を記録する。書式は release-log スキルに従う。
 > ※ このファイルは意図的に `.claude/` の外に置く(無人実行の承認プロンプト事故対策)。
 
+## v2026.10.25 — 第60号（定期更新・自動配信）
+
+- 2026-10-25 06:00 JST 定期更新で配信(push済み=自動デプロイ、コミット 2eb16e4)。記事5本
+  (米Elucid社が冠動脈CT血管造影(CCTA)から血流予備量比(FFR)を推定するソフト「FFR-IQ」で米FDAの
+  510(k)認可を取得(2026年10月21日発表、同社発表のELUCIDATE FFR-CT試験で感度92.2%・特異度93.1%、
+  第三者検証データは記事に無し)、米Koning Health社の乳房専用CT「Vera Breast CT」がカナダ保健省
+  (Health Canada)から医療機器ライセンスを取得(2026年10月20日発表、圧迫なしのコーンビームCTで
+  3次元撮影、国内未承認)、トルコ・Tokat Gaziosmanpaşa大学のチームが乳房MRIを受けた女性99人
+  (良性66例・悪性33例)の後ろ向き解析でKaiserスコア(AUC 0.98)がMRI BI-RADS判定(AUC 0.88)より
+  悪性鑑別精度が高いと『European Journal of Radiology』に報告(単一施設・小規模、著者らも生検判断
+  は画像所見単独で決めるべきでないと注意)、米Cincinnati Children's Hospital Medical Centerの
+  チームが小児の腹部CT139例・MRI64例でラジオミクス特徴量を解析し手動セグメンテーションと深層学習
+  セグメンテーションで一致度が不良〜可の特徴量20〜86個・系統的な偏り36〜92個、DL由来モデルの精度
+  ・汎化性能が手動由来より低い傾向と『American Journal of Roentgenology』に報告(MRIで差が最大、
+  研究者にセグメンテーション手法の明記を提言)、肺結節AI「Virtual Nodule Clinic」(米FDA認可済み)
+  と「Lung Cancer Prediction AI」が画像診断プラットフォーム「RapidAI」の「Rapid Enterprise
+  Platform」に統合(企業発表に基づき第三者検証は記事に無し))。
+  headline: 米Elucid社が冠動脈CTからFFRを推定するAIソフト「FFR-IQ」で米FDAの510(k)認可を取得、
+  米Koning Health社の乳房専用CT「Vera Breast CT」がカナダ保健省の医療機器ライセンスを取得、
+  トルコの研究チームが乳房MRIの悪性鑑別でKaiserスコアがBI-RADS判定より精度が高いと報告、米
+  シンシナティ小児病院のチームがラジオミクスの特徴量は手動と深層学習セグメンテーションで一致
+  しないと報告、肺結節AI「Virtual Nodule Clinic」が画像診断プラットフォーム「RapidAI」に統合
+  ——心臓CT・乳房画像・AI解析・肺がん検診の動向5本。
+  新規の用語辞典追加: [[glossary:fractional-flow-reserve]]（血流予備量比(FFR)）を新規追加。
+- auntminnie.comのCT/MRI/Molecular Imaging/Women's Imagingカテゴリ一覧とJSRT公式トップページを
+  WebFetchで直接確認し、記事5本をauntminnie.com掲載の記事個別ページから通常フロー(手順3の(1))で
+  記事化。記事5本中5本(冠動脈CT・乳房専用CT・乳房MRI診断・ラジオミクス手法・肺結節AI)が放射線
+  技術・放射線技師に直接関わる話題で基準の過半数を大きく満たす。既刊全号(特に前日v2026.10.24・
+  前々日v2026.10.23)とtitle/sourceの重複なしを確認済み(重複候補として見つかったBiograph心臓AI・
+  LDCTオーダー介入・FAPI-PET・EANM研究分断・GEHC StarGuide GX・Nuclidium Cu-67提携・VR神経芽腫
+  評価は前号までで既掲載のため除外)。
+
 ## v2026.10.24 — 第59号（定期更新・自動配信）
 
 - 2026-10-24 06:00 JST 定期更新で配信(push済み=自動デプロイ、コミット 813e797)。記事4本
