@@ -3,6 +3,33 @@
 > 配信(号の発行・シェル変更のデプロイ)を記録する。書式は release-log スキルに従う。
 > ※ このファイルは意図的に `.claude/` の外に置く(無人実行の承認プロンプト事故対策)。
 
+## v2026.11.01 — 第67号（定期更新・自動配信）
+
+- 2026-11-01 06:00 JST 定期更新で配信(push済み=自動デプロイ、コミット 6a85f1f)。記事4本
+  (米ホスピタル・フォー・スペシャル・サージャリー(HSS)の研究チームが、168人(女性120人・
+  男性48人)のMRIから作った膝のデジタルツインを使い、ACL損傷歴のある群は非損傷群よりACL
+  負荷が20〜26%高く、女性は男性より平均17%高いと報告(『Communications Medicine』誌、
+  AuntMinnie 2026年10月30日報道)、カナダProfound Medical社と米Cook Medical社のiMRI部門が、
+  MRIガイド下前立腺治療装置「TULSA-Pro」の米国販売代理契約を締結(2026年10月30日発表、
+  シーメンス製MRIとの組み合わせ構成はFDAへ510(k)申請中・未承認)、独Eckert & Ziegler
+  Therapeuticsがアルファ線核種アクチニウム225(Ac-225)のGMP製造認可をドイツの当局から
+  取得し治験での患者投与が可能に(2026年10月28日報道、メーカー発表に基づく)、米メリタス・
+  ヘルスがスウェーデンSectra社のクラウド型エンタープライズイメージング基盤「Sectra One
+  Cloud」を放射線科から稼働開始(2026年10月29日報道、5年契約・年間約25.7万件想定)。
+  headline: 米HSSがMRIベースのデジタルツインで膝の3D形状とACL負荷の関係を報告、MRIガイド下
+  前立腺治療装置「TULSA-Pro」の米国販売をCook Medicalが代理へ、独Eckert & Zieglerがアルファ
+  線核種アクチニウム225のGMP製造認可を取得、米メリタス・ヘルスがクラウド型画像管理基盤
+  「Sectra One Cloud」を稼働——MRI研究・治療装置・核医学・画像管理の動向4本。
+  新規の用語辞典追加: [[glossary:digital-twin]](デジタルツイン)・[[glossary:acl]](ACL/
+  前十字靭帯)・[[glossary:gmp]](GMP)・[[glossary:enterprise-imaging]](エンタープライズ
+  イメージング)の4件。
+- auntminnie.comのMRI/CT/核医学/産業ニュース/エンタープライズイメージング各セクションの
+  最新一覧をWebFetchで取得し、個別記事ページから通常フロー(手順3の(1))で記事化。既刊全号
+  (特にv2026.10.24〜v2026.10.31)とtitle/sourceの重複排除を実施し、候補のうち「PA enacts
+  licensure law for imaging, radiation therapy professionals」「HOPPR releases whole-body
+  MSK x-ray report drafting model」は既掲載(source URL一致)のため除外。記事4本全てが放射線
+  技術・放射線技師に直接関わる話題(基準の過半数を満たす)。
+
 ## v2026.10.31 — 第66号（定期更新・自動配信）
 
 - 2026-10-31 06:00 JST 定期更新で配信(push済み=自動デプロイ、コミット 1fdb37f)。記事3本
