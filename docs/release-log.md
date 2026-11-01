@@ -3,6 +3,33 @@
 > 配信(号の発行・シェル変更のデプロイ)を記録する。書式は release-log スキルに従う。
 > ※ このファイルは意図的に `.claude/` の外に置く(無人実行の承認プロンプト事故対策)。
 
+## v2026.11.02 — 第68号（定期更新・自動配信）
+
+- 2026-11-02 06:00 JST 定期更新で配信(push済み=自動デプロイ、コミット 145c6d4)。記事3本
+  (カナダClarius Mobile Health社が携帯型超音波アプリ「Clarius App」をv13.1に更新し、搭載
+  AIモデルを16種(2025年12月)から30種に拡大(2026年10月28日発表、臨床測定12種・解剖ラベル
+  表示14種・ワークフロー支援4種)、英Brainomix社のAI「Brainomix 360 Stroke」が、単純CTから
+  測定した脳梗塞範囲(梗塞コア体積)を使い、治験中の脳卒中治療薬グリブリド(Cirara、米Remedy
+  Pharmaceuticals社・未承認)の効果が出やすい患者層(体積125mL未満)を見分けられる可能性を、
+  第III相CHARM試験(428人)の事後解析として世界脳卒中会議(ソウル)で発表(2026年10月28日報道、
+  学会発表段階・効果の大きさの数値は非公開)、豪ディーキン大学の研究チームが、中高年対象の
+  既存研究42件(社会的孤立7件・孤独感26件・両方9件)を系統的レビューし、社会的孤立は側頭葉、
+  孤独感は被殻・淡蒼球と関連が強く、共通する影響は海馬・扁桃体・視床などの大脳辺縁系に
+  みられると報告(『Alzheimer's & Dementia』誌、AuntMinnie 2026年10月28日報道)。
+  headline: カナダClarius社の携帯型エコーがAIモデルを30種に拡大、英BrainomixのAIが脳卒中
+  治験薬の効果を単純CTで見分けられる可能性を提示、豪ディーキン大学がMRI・PETで孤独感と
+  社会的孤立が脳に与える異なる影響を報告——超音波AI・脳卒中AI・脳画像研究の動向3本。
+  新規の用語辞典追加: [[glossary:dti]](拡散テンソル画像/DTI)・
+  [[glossary:modified-rankin-scale]](改訂ランキンスケール/mRS)の2件。
+- auntminnie.comのClinical News/Industry Newsの最新一覧をWebFetchで取得し、個別記事ページ
+  から通常フロー(手順3の(1))で記事化。既刊全号とtitle/source URLの重複排除を実施(同リスト
+  内の「FDA clears Deep Reasoning AI's neurovascular CTA software」「ASTRO updates prostate
+  cancer treatment guideline」「Turner Imaging's mini C-arm gets Defense Health Agency
+  authorization」は既掲載のため除外、財務決算系記事(IRadimed・Median・GE HealthCare)は
+  読者層との関連が薄いため不採用)。AuntMinnie最新掲載が2026年10月30日時点で止まっていたため、
+  10月28日掲載の未使用3本で号を構成(動きが少ない日の2〜3記事可の範囲)。記事3本全てが
+  装置・技術/研究・学会に属し放射線技術に直接関わる話題(基準の過半数を満たす)。
+
 ## v2026.11.01 — 第67号（定期更新・自動配信）
 
 - 2026-11-01 06:00 JST 定期更新で配信(push済み=自動デプロイ、コミット 6a85f1f)。記事4本
