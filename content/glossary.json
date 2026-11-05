@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-05",
+  "updated": "2026-11-06",
   "terms": [
     {
       "slug": "super-resolution",
@@ -2106,6 +2106,19 @@
         "zr-89",
         "radiopharmaceutical",
         "psma"
+      ]
+    },
+    {
+      "slug": "flair",
+      "term": "FLAIR法(フレア法)",
+      "reading": "ふれあほう",
+      "category": "撮像・検査",
+      "definition": "自由水の信号をゼロに抑え込んだT2強調像の一種です。反転回復法(IR法)を使い、自由水のT1に合わせてTI(反転時間)を長く設定することで、脳室や脳脊髄液の高信号を消し、水分を含む病変だけを脳実質の中で目立たせます。",
+      "context": "脳梗塞や脱髄病変の検出に使われる頭部MRIの基本シーケンスとして、国家試験でも臨床でも必ず登場します。",
+      "related": [
+        "inversion-recovery",
+        "spin-echo",
+        "fast-spin-echo"
       ]
     }
   ]
