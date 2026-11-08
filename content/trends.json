@@ -1,6 +1,55 @@
 {
-  "updated": "2026-11-08",
+  "updated": "2026-11-09",
   "issues": [
+    {
+      "version": "v2026.11.09",
+      "date": "2026年11月9日",
+      "headline": "GEヘルスケアがAI搭載の汎用超音波診断装置『LOGIQ Focus』を発売、米Paradromics社と独Siemens Healthineers社が脳-コンピュータ・インターフェース(BCI)向け画像診断プラットフォームを共同開発、米国で『全米放射線技師週間』が11月8日に開幕——超音波AI・BCI画像診断・技師週間の動向3本。",
+      "items": [
+        {
+          "title": "GEヘルスケア、AI搭載の汎用超音波診断装置『LOGIQ Focus』を発売——肝臓の脂肪量・硬さを評価する機能を搭載、米FDA認可・欧州CEマーク取得",
+          "category": "装置・技術",
+          "source": "https://www.gehealthcare.com/en/about/newsroom/press-releases/ge-healthcare-expands-general-imaging-ultrasound-portfolio-with-logiq-focus-elevating-everyday-ultrasound-performance",
+          "lead": "米GEヘルスケアは2026年10月19日、腹部や全身の超音波検査に使う汎用超音波診断装置の新機種「LOGIQ Focus」を発表しました。AIによる検査支援機能に加え、肝臓の脂肪量・硬さを評価する機能を備えます。米FDAの[[glossary:fda-510k|510(k)]]届出による認可と、欧州[[glossary:ce-mark|CEマーク]]を取得済みです。",
+          "body": "走査した部位をAIが自動判別して撮像条件を呼び出す「Auto Preset Assistant」や、検査の手順をガイドする「Scan Assistant」などの機能を搭載しています。肝臓の脂肪量を推定する「Ultrasound-Guided Fat Fraction」と、肝臓の硬さ(線維化の進行度の目安)を調べる2D[[glossary:shear-wave-elastography|シェアウェイブエラストグラフィ]]を備え、脂肪肝や慢性肝疾患の経過観察を支援します。ワイヤレスの携帯型プローブ「Vscan Air CL」にも対応します。",
+          "briefing": [
+            "発表は2026年10月19日、米FDA 510(k)認可・欧州CEマーク取得済み",
+            "AIが走査部位を自動判別し撮像条件を呼び出す「Auto Preset Assistant」などを搭載",
+            "肝臓の脂肪量・硬さを定量評価する機能(Fat Fraction・シェアウェイブエラストグラフィ)を搭載",
+            "日本国内での発売時期・価格は公表されていない"
+          ],
+          "explanation": "超音波検査における肝臓の非侵襲的な評価は、脂肪肝や慢性肝疾患の経過観察に広く使われる技術で、消化器領域の超音波検査にかかわる技師にとって基本となる知識です。AIによる撮像条件の自動化が進むことで、検査の標準化や時間短縮が期待されます。"
+        },
+        {
+          "title": "米Paradromics社と独Siemens Healthineers社が提携、脳-コンピュータ・インターフェース(BCI)向け画像診断プラットフォームを共同開発へ——構造・機能MRIとCTで植込み手術の計画・評価を支援",
+          "category": "研究・学会",
+          "source": "https://www.itnonline.com/content/paradromics-siemens-healthineers-collaborate-multimodal-imaging-platform",
+          "lead": "脳に電極を植え込みBCI(脳とコンピュータを直接つなぐ技術)を開発する米Paradromics社と、独Siemens Healthineers社は2026年10月、植込み手術の計画や経過観察に使う画像診断プラットフォームを共同開発すると発表しました。",
+          "body": "脳の形を見る構造MRI、発話などに関わる脳の活動部位を事前に特定する[[glossary:fmri|機能MRI(fMRI)]]、手術で避けるべき血管を確認する血管撮影、植込み後の電極位置を確認するCTを組み合わせる構想です。第一段階では発話に関わる脳機能を対象とし、将来的には手の運動機能や脳卒中後の言語機能回復支援への拡張も検討するとしています。現時点は提携の発表であり、製品化や薬機法上の承認状況は明らかにされていません。",
+          "briefing": [
+            "提携発表は2026年10月19日(ITN Onlineの記事掲載は10月26日)",
+            "構造MRI・機能MRI(fMRI)・血管撮影・CTを組み合わせた画像診断プラットフォームを構想",
+            "第一段階の対象は発話に関わる脳機能、将来的に手の運動機能・脳卒中後の言語回復への拡張も検討",
+            "現時点は研究・開発段階で、製品化や承認の状況は未公表"
+          ],
+          "explanation": "BCIはまだ研究開発段階の技術ですが、実現には精密な脳画像診断が前提になります。MRI・CTを扱う技師にとって、将来的に神経科学領域の最先端医療を支える応用分野の一つとして知っておきたい話題です。"
+        },
+        {
+          "title": "米国で『全米放射線技師週間』が11月8日に開幕——X線発見の日にちなみ毎年開催、2026年のテーマは『Radiating Love』",
+          "category": "制度・キャリア",
+          "source": "https://www.asrt.org/events-and-conferences/nrtw",
+          "lead": "米国放射線技師学会(ASRT)は、2026年11月8日から14日までを「全米放射線技師週間(National Radiologic Technology Week)」とし、医療画像・放射線治療に携わる技師の功績をたたえる1週間と位置づけています。2026年のテーマは「Radiating Love」です。",
+          "body": "この週は、レントゲン博士が1895年11月8日にX線を発見したことにちなみ、毎年同じ時期に開催されています。米国内の取り組みですが、画像診断・放射線治療を支える技師の役割を社会に伝える機会として位置づけられています。",
+          "briefing": [
+            "開催期間: 2026年11月8日(日)〜14日(土)",
+            "主催: 米国放射線技師学会(ASRT)",
+            "由来: レントゲン博士によるX線発見(1895年11月8日)",
+            "2026年のテーマ: 「Radiating Love」(患者ケアと安全への献身を称える)"
+          ],
+          "explanation": "国内の制度ではありませんが、X線発見の日が起点になっていることは放射線の歴史にまつわる基礎知識です。自分たちの仕事が社会にどう位置づけられているかを考えるきっかけとして知っておきたい話題です。"
+        }
+      ]
+    },
     {
       "version": "v2026.11.08",
       "date": "2026年11月8日",
