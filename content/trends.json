@@ -1,6 +1,41 @@
 {
-  "updated": "2026-11-19",
+  "updated": "2026-11-20",
   "issues": [
+    {
+      "version": "v2026.11.20",
+      "date": "2026年11月20日",
+      "headline": "米a2z Radiology AI社が腹部・骨盤CT向けAIトリアージソフト「a2z-Omni-Triage」で3製品目の米FDA認可を取得、豪Clarity Pharmaceuticals社のPSMA PET薬剤「64Cu-SAR-bisPSMA」がPSMA PET薬剤として初の米FDAブレークスルーセラピー指定——AIトリアージ・核医学薬剤の動向2本。",
+      "items": [
+        {
+          "title": "米a2z Radiology AI社、腹部・骨盤CT向けAIトリアージソフト「a2z-Omni-Triage」に米FDA認可——3製品目で対応所見は計26種類に",
+          "category": "装置・技術",
+          "source": "https://www.financialcontent.com/article/bizwire-2026-11-19-a2z-radiology-ai-expands-acute-care-suite-with-third-fda-cleared-device",
+          "lead": "米a2z Radiology AI社は2026年11月19日、腹部・骨盤部のCT検査で緊急性の高い所見をAIが検出し、読影の優先順位付けを支援するソフト「a2z-Omni-Triage」が米FDA(食品医薬品局)の認可を取得したと発表しました。同社がFDA認可を得た製品としては3製品目になります。",
+          "body": "新製品は22歳以上の成人を対象に、造影の有無を問わない腹部・骨盤CTから、中等度以上の胸水貯留、気胸、複雑な胸水貯留、腸管穿孔、中等度以上の[[glossary:hydronephrosis|水腎症]](腎臓の中に尿がたまり腎盂が広がった状態)、5cm以上の大動脈瘤、骨盤骨折、仙骨・尾骨骨折、軟部組織膿瘍の計9所見を検出します。同社はすでに7所見に対応する「a2z-Unified-Triage」、10所見に対応する「a2z-Abdo-Triage」のFDA認可を得ており、3製品の合計対応所見数は26種類になるとしています。発表文には各所見の検出感度・特異度などの臨床性能データは示されていません。",
+          "briefing": [
+            "2026年11月19日発表。腹部・骨盤CT向けAIトリアージソフト「a2z-Omni-Triage」が米FDA認可を取得",
+            "中等度以上の胸水貯留・気胸・腸管穿孔・水腎症・大動脈瘤(5cm以上)など9所見を検出",
+            "同社のFDA認可製品は3製品目で、3製品の対応所見数は合計26種類",
+            "発表時点で検出感度・特異度などの臨床性能データは非公表"
+          ],
+          "explanation": "救急領域のCT検査では、緊急性の高い所見を早く見つけて読影医に伝えることが治療開始までの時間短縮につながります。ただしAIトリアージはあくまで読影の優先順位付けを支援する補助的な仕組みであり、確定診断や読影そのものを代替するものではありません。今回の認可は米国向けで、国内での導入状況や薬事上の扱いは明らかにされていない点にも注意してください。"
+        },
+        {
+          "title": "前立腺がん再発評価用PSMA PET薬剤「64Cu-SAR-bisPSMA」に米FDAがブレークスルーセラピー指定——第II相試験で陽性検出率は既存薬の2倍超",
+          "category": "研究・学会",
+          "source": "https://www.diagnosticimaging.com/view/fda-breakthrough-therapy-designation-emerging-psma-pet-agent-men-suspected-pca-recurrence",
+          "lead": "豪Clarity Pharmaceuticals社は2026年11月12日、[[glossary:psma|PSMA]]を標的とする銅64(Cu-64)標識の[[glossary:pet|PET]]診断薬「64Cu-SAR-bisPSMA」について、前立腺がん治療後にPSA値が再上昇した患者の病巣検出を目的に、米FDAから[[glossary:breakthrough-therapy-designation|ブレークスルーセラピー指定]]を受けたと発表しました。PSMA PET診断薬としては初めての指定だとしています。",
+          "body": "指定の根拠となったのは、前立腺摘除後に[[glossary:biochemical-recurrence|生化学的再発]](PSA値の再上昇)が確認された患者50人を対象に、既承認薬のガリウム68標識PSMA PET薬剤「68Ga-PSMA-11」と比較した第II相試験「Co-PSMA」です。投与翌日に撮像した64Cu-SAR-bisPSMAは78%の患者で陽性所見を示したのに対し、68Ga-PSMA-11は36%にとどまり、検出された病巣数も63個対24個でした。検査結果を受けて治療方針が変更された患者は全体の44%にのぼったとしています。同薬はすでに同じ適応と、未治療患者の転移検索を目的とした適応でファストトラック指定(審査迅速化の優遇制度)も受けています。今回の結果は50人規模の第II相試験によるもので、より大規模な第III相試験「AMPLIFY」「CLARIFY」の結果が2027年上半期に公表される見込みです。",
+          "briefing": [
+            "豪Clarity Pharmaceuticals社が2026年11月12日発表。PSMA PET診断薬として初のブレークスルーセラピー指定",
+            "第II相試験「Co-PSMA」(50人)で陽性検出率78%、既存薬の68Ga-PSMA-11は36%",
+            "検査結果を受けて治療方針が変わった患者は全体の44%",
+            "第III相試験「AMPLIFY」「CLARIFY」の結果は2027年上半期に公表予定で、現時点では未承認"
+          ],
+          "explanation": "核医学検査で使うPSMA PET薬剤は国内でも導入が進んでいる分野で、銅64という新しい核種を使った薬剤の開発動向は今後の検査選択肢の広がりに関わってきます。ブレークスルーセラピー指定は承認を意味するものではなく、今回の結果が50人規模の第II相試験によるものである点にも注意が必要です。"
+        }
+      ]
+    },
     {
       "version": "v2026.11.19",
       "date": "2026年11月19日",
