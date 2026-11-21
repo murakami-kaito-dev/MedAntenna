@@ -1,6 +1,55 @@
 {
-  "updated": "2026-11-21",
+  "updated": "2026-11-22",
   "issues": [
+    {
+      "version": "v2026.11.22",
+      "date": "2026年11月22日",
+      "headline": "米GE社がフォトンカウンティングCT「Photonova Spectra」の臨床評価プログラムに慶應義塾大学病院など世界7施設の参加を発表、独Siemens社の冠動脈CT血管造影(CCTA)AI解析ソフトが米FDA認可、米国核医学会(SNMMI)と定量的医用画像コンソーシアム(QMIC)がPET/SPECT定量評価の標準化で提携——装置・技術2本・研究1本。",
+      "items": [
+        {
+          "title": "米GE社、フォトンカウンティングCT「Photonova Spectra」の臨床評価プログラムを拡大——国内から慶應義塾大学病院が参加",
+          "category": "装置・技術",
+          "source": "https://www.itnonline.com/content/ge-healthcare-expands-global-collaborations-advance-photonova-spectra-photon-counting-ct",
+          "lead": "米GE HealthCare社は2026年11月16日、自社の[[glossary:photon-counting-ct|フォトンカウンティングCT]]「Photonova Spectra」について、世界7施設と進める臨床・研究評価プログラムを拡大すると発表しました。日本からは慶應義塾大学病院(東京)が参加します。",
+          "body": "Photonova Spectraは、独自の検出器「Deep Silicon」を使い、通常の撮像と物質弁別(スペクトラル)撮像を1回のスキャンでまとめて行えるとされる装置です。米国では[[glossary:fda-510k|FDA 510(k)]]認可、欧州ではCEマークを取得済みですが、記事では「地域によっては販売されていない」とされており、国内での発売時期は明らかにされていません。参加施設はプロトコルの最適化や定量評価の検証などを進めるとしています。",
+          "briefing": [
+            "参加7施設は日・米・欧の3大陸にわたり、慶應義塾大学病院(日本)、米スタンフォード大学、米ウィスコンシン大学などが含まれる",
+            "スイス・チューリヒ大学病院は冠動脈CT血管造影([[glossary:ccta|CCTA]])での線量最適化を担当する予定",
+            "装置は米国でFDA 510(k)認可、欧州でCEマークを取得済みだが、地域によっては未発売",
+            "今回の参加は臨床・研究目的の評価プログラムで、新たな適応の承認を意味するものではない"
+          ],
+          "explanation": "フォトンカウンティングCTは国内の主要施設でも導入が始まりつつある次世代CTです。国内施設が国際的な評価プログラムに加わったことで、今後の学会発表や撮像プロトコルの標準化に関する情報が国内からも出てくる可能性があり、学生・若手技師にとって追いかけておきたい動きです。"
+        },
+        {
+          "title": "独Siemens Healthineers社、冠動脈CT血管造影(CCTA)のAI解析ソフト「Syngo.CT Coronary Cockpit」に米FDA認可",
+          "category": "装置・技術",
+          "source": "https://www.diagnosticimaging.com/view/fda-ccta-based-ai-software-facilitating-management-coronary-artery-disease",
+          "lead": "独Siemens Healthineers社は2026年11月19日、[[glossary:ccta|CCTA]](冠動脈CT血管造影)の画像からAIで冠動脈プラークを解析するソフト「Syngo.CT Coronary Cockpit」について、米FDAの[[glossary:fda-510k|510(k)]]認可を取得したと発表しました。",
+          "body": "同ソフトは画像処理プラットフォーム「Syngo.via」上で動作し、病変単位・血管全体の単位でプラークの量や性状を自動的にセグメンテーション(領域抽出)・分類します。メーカーは、[[glossary:pci|経皮的冠動脈インターベンション(PCI)]]などの治療方針を検討する際の補助情報として使われることを想定しているとしていますが、治療適応の判断そのものは医師が行う前提のソフトです。",
+          "briefing": [
+            "対象はCCTA画像。AIがプラークの量・性状を自動解析する補助ソフトとして米FDA 510(k)認可を取得",
+            "Siemens社の画像処理プラットフォーム「Syngo.via」上で動作",
+            "メーカーは治療方針検討の補助情報としての活用を想定しているとしているが、治療判断は医師が行う",
+            "具体的な認可日は記事に明記されていない(発表は2026年11月19日)"
+          ],
+          "explanation": "CCTAは心拍コントロールや息止め指導など、CT技師の技術が直接問われる検査です。AI解析ソフトの普及は撮像後の読影ワークフローに影響するため、今後どのような画質・撮像条件が求められるようになるか、動向を把握しておく価値があります。"
+        },
+        {
+          "title": "米国核医学会(SNMMI)、定量的医用画像コンソーシアム(QMIC)と提携——PET/SPECT定量評価の標準化へ",
+          "category": "研究・学会",
+          "source": "https://www.itnonline.com/content/snmmi-qmic-team-advance-quantitative-pet-spect-imaging",
+          "lead": "米国核医学会(SNMMI)と定量的医用画像コンソーシアム(QMIC)は2026年11月20日、PET・SPECT検査の定量評価を標準化するための長期的な連携に関する覚書(MoU)を締結したと発表しました。",
+          "body": "両団体は、PET/CTやSPECT/CTの撮像・処理・解析手順を標準化する指針づくりと、施設・装置間で測定値をそろえるための検証・キャリブレーション基準の整備に取り組むとしています。対象には、前立腺がんの評価に使われる[[glossary:psma|PSMA]]PETの腫瘤量の指標や、ブドウ糖代謝を見る[[glossary:fdg-pet|FDG-PET]]の指標などが含まれるとしています。",
+          "briefing": [
+            "SNMMIとQMICがPET/SPECT定量評価の標準化に向けた覚書(MoU)を締結",
+            "撮像・処理・解析手順の標準化指針と、施設・装置間の検証・キャリブレーション基準の整備が目標",
+            "PSMA PETの腫瘤量指標やFDG-PETの代謝指標の標準化が対象に含まれる",
+            "具体的な基準や導入時期はまだ示されていない"
+          ],
+          "explanation": "定量PET/SPECTの値は、施設や装置が違うと単純に比較できないことが課題になっています。標準化が進めば、将来多施設共同研究や治験に関わる際に必須となる基礎知識になるため、核医学分野を志す学生・若手技師は今後の基準策定の動きを追っておくとよいでしょう。"
+        }
+      ]
+    },
     {
       "version": "v2026.11.21",
       "date": "2026年11月21日",
