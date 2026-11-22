@@ -1,6 +1,55 @@
 {
-  "updated": "2026-11-22",
+  "updated": "2026-11-23",
   "issues": [
+    {
+      "version": "v2026.11.23",
+      "date": "2026年11月23日",
+      "headline": "米GE HealthCare社がAI画像処理群「AW ONE」を画像診断ビューワー「InteleViewer」に統合、英Adaptix社・英IBEX Innovations社がポータブル3D X線装置向け骨密度評価ソフト搭載で覚書(米国未承認)、タウPET薬剤「florquinitau F18」の新判定基準案データが学会で発表——装置・技術2本・研究1本。",
+      "items": [
+        {
+          "title": "米GE HealthCare社、画像診断ビューワー「InteleViewer」にAI画像処理群「AW ONE」を統合——RSNA 2026で実演へ",
+          "category": "装置・技術",
+          "source": "https://www.itnonline.com/content/ge-healthcare-integrates-advanced-visualization-diagnostic-viewer",
+          "lead": "米GE HealthCare社は2026年11月18日、傘下のIntelerad社が手がける画像診断ビューワー「InteleViewer」(IntelePACS)に、自社のAI画像処理・ワークフロー支援群「AW ONE」を統合したと発表しました。読影医は画面を切り替えずにビューワー内からAW ONEの機能を呼び出せるようになります。",
+          "body": "統合により、スペクトラルCT画像を単一画面で表示する「VersaViewer(One View)」など、AW ONE上のアプリケーションを読影中のビューワーから直接起動できるようになります。同社は2025年の調査で世界50か国の放射線科専門医の53%が「燃え尽き」を最大の懸念に挙げたとするデータを引用し、アプリ切り替えの手間を減らす狙いを説明していますが、記事には統合による読影時間短縮など独立した効果データは示されていません。発表はRSNA 2026年次総会(11月29日〜12月3日、米シカゴ)に合わせたもので、会場でのデモが予定されています。",
+          "briefing": [
+            "GE社傘下Intelerad社製ビューワー「InteleViewer」にAI画像処理群「AW ONE」を統合、読影画面からそのまま起動可能に",
+            "スペクトラルCTを単一画面で表示する「VersaViewer(One View)」などが対象",
+            "発表は2026年11月18日。RSNA 2026(11月29日〜12月3日、米シカゴ)で実演予定",
+            "記事に読影時間・精度への独立した効果データの提示はなし"
+          ],
+          "explanation": "PACS・ビューワーとAI画像処理ソフトの統合は、今後の読影・撮像後処理のワークフローを大きく変えていく分野です。学生・若手技師も将来、こうした統合環境での画像確認や後処理の操作に関わる可能性があるため、どのメーカーがどう連携を進めているか知っておくと役立ちます。"
+        },
+        {
+          "title": "英Adaptix社と英IBEX Innovations社、ポータブル3D X線装置向け骨密度評価ソフト搭載で覚書——米国内での販売はまだ未承認",
+          "category": "装置・技術",
+          "source": "https://www.itnonline.com/content/adaptix-ibex-innovations-work-together-x-ray-bone-health-assessment",
+          "lead": "英Adaptix社と英IBEX Innovations社は2026年11月17日、骨密度評価ソフト「CorteX」をAdaptix社の携行型3D X線装置「Ortho350」に搭載することを検討する覚書(MOU)を締結したと発表しました。",
+          "body": "Ortho350は骨・関節の3D画像が得られる携行型の[[glossary:digital-breast-tomosynthesis|デジタルトモシンセシス]]装置で、米[[glossary:fda-510k|FDA 510(k)]]認可と[[glossary:ce-mark|CEマーク]]を取得済みです。一方CorteXは、手首のX線画像から[[glossary:dxa|DXA]](二重X線吸収測定法)と同様の骨密度指標・T-scoreを算出するとされるソフトで、欧州ではCEマークを取得済みですが、米国向けのFDA 510(k)申請は審査中であり、米国内での販売・臨床使用はまだできません。両社は、現場でのポイントオブケア骨密度評価を自己負担(キャッシュペイ)で提供する構想を描いており、RSNA 2026の会場(米シカゴ)で共同出展する予定です。",
+          "briefing": [
+            "対象はAdaptix社の携行型3Dデジタルトモシンセシス装置「Ortho350」(FDA 510(k)・CEマーク取得済み)",
+            "搭載を検討するIBEX社の骨密度評価ソフト「CorteX」は欧州CEマーク取得済みだが、米国向けFDA 510(k)は審査中で米国内販売は未承認",
+            "2026年11月17日に覚書(MOU)を締結。発売時期は未定",
+            "RSNA 2026(11月29日〜12月3日、米シカゴ)で共同出展予定"
+          ],
+          "explanation": "X線撮影装置に骨密度評価機能を組み込む発想は、骨折リスク評価の裾野を広げる可能性がありますが、現時点では覚書の段階で米国では未承認です。今後承認・実用化が進むか注目したい分野ですが、臨床での使用を推奨する段階ではありません。"
+        },
+        {
+          "title": "タウPET薬剤「florquinitau F18」、新たな判定基準案で早期アルツハイマー病の検出感度を検討——学会発表の未査読データ",
+          "category": "研究・学会",
+          "source": "https://www.diagnosticimaging.com/view/molecular-imaging-in-focus-new-insights-tau-pet-florquinitau-f-18-early-alzheimers-disease",
+          "lead": "2026年8月に米FDAの承認を受けた[[glossary:tau-pet|タウPET]]薬剤「florquinitau F18」(商品名Tauklarify)について、新たな画像判定基準案を使うと軽度の認知機能障害の段階でもタウ病理を検出しやすくなる可能性を示すデータが、2026年11月16日〜19日に米ボストンで開催された学会「CTAD」(Clinical Trials on Alzheimer's Disease)で発表されました。",
+          "body": "発表は2件の第III相試験のデータに基づくもので、アミロイドPETと認知機能評価を組み合わせた新しい判定基準(臨床・画像複合基準)を用いた場合の感度は68.2〜88.5%、特異度は93.5〜99.4%とされました。この基準はまだ学会発表の段階で、査読を受けた論文としては公表されていません。剖検(病理解剖)に基づく従来の基準とは前提が異なるため、単純な数値の比較はできません。florquinitau F18自体は認知機能障害があり、アルツハイマー病の評価を受ける成人を対象に承認されていますが、アルツハイマー病以外のタウ蛋白症に対する有効性は確立されていません。",
+          "briefing": [
+            "florquinitau F18(Tauklarify)は2026年8月に米FDA承認済みのタウPET薬剤。今回の発表は適応拡大ではなく、新たな判定基準案に関する研究データ",
+            "新判定基準(臨床・画像複合基準)使用時の感度68.2〜88.5%、特異度93.5〜99.4%(2件の第III相試験)——学会発表段階で未査読",
+            "学会はCTAD(2026年11月16〜19日、米ボストン)",
+            "アルツハイマー病以外のタウ蛋白症への有効性は確立されていない"
+          ],
+          "explanation": "タウPETはアミロイドPETと並び、アルツハイマー病診療の画像検査として今後国内でも話題になる分野です。今回のデータは判定基準の研究段階のもので、現時点で検査の適応を広げる根拠にはなりませんが、核医学・PET検査に関わる技師にとって今後の動向を追う価値がある話題です。"
+        }
+      ]
+    },
     {
       "version": "v2026.11.22",
       "date": "2026年11月22日",
