@@ -1,6 +1,32 @@
 {
-  "updated": "2026-11-25",
+  "updated": "2026-11-26",
   "terms": [
+    {
+      "slug": "fast-track-designation",
+      "term": "ファストトラック指定",
+      "reading": "ふぁすととらっくしてい",
+      "category": "制度・資格",
+      "definition": "重篤な疾患を対象に、既存の治療・診断の選択肢を満たせていない医薬品・診断薬の開発を後押しするため、米FDAが審査段階で開発企業との協議を通常より頻回に行う制度です。[[glossary:breakthrough-therapy-designation|ブレークスルーセラピー指定]]と同様、指定そのものは承認を意味しません。",
+      "context": "海外の新しい放射性医薬品・診断薬の開発ニュースで、承認前の段階を示す言葉として登場します。",
+      "related": [
+        "breakthrough-therapy-designation",
+        "fda-510k"
+      ]
+    },
+    {
+      "slug": "cu-64",
+      "term": "銅64(Cu-64)",
+      "reading": "どうろくじゅうよん",
+      "category": "物理・原理",
+      "definition": "半減期が約12.7時間の放射性銅です。陽電子を放出するため[[glossary:pet|PET]]検査の核種として使われ、フッ素18やガリウム68より半減期が長く、遠方への配送や長時間にわたる撮像に向くとされています。",
+      "context": "PSMAなど特定の分子を標的にしたPET診断薬の開発で、核種の選択肢として登場します。",
+      "related": [
+        "pet",
+        "half-life",
+        "radioisotope",
+        "psma"
+      ]
+    },
     {
       "slug": "cta",
       "term": "CTA(CT血管撮影)",
