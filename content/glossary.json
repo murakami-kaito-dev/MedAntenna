@@ -1,6 +1,18 @@
 {
-  "updated": "2026-11-26",
+  "updated": "2026-11-27",
   "terms": [
+    {
+      "slug": "amyloid-pet",
+      "term": "アミロイドPET",
+      "reading": "あみろいどぺっと",
+      "category": "撮像・検査",
+      "definition": "アルツハイマー病などで脳内に蓄積する異常なアミロイドβタンパク質を、PET検査で画像化する手法です。専用の放射性医薬品(アミロイドPETトレーサー)を投与し、脳内のアミロイドの蓄積量や分布を評価します。[[glossary:tau-pet|タウPET]]と並び、アルツハイマー病の画像診断で使われる検査の一つです。",
+      "context": "アルツハイマー病の早期診断や新しいPET薬剤・研究の話題で、タウPETとあわせて登場します。",
+      "related": [
+        "tau-pet",
+        "fdg-pet"
+      ]
+    },
     {
       "slug": "fast-track-designation",
       "term": "ファストトラック指定",
